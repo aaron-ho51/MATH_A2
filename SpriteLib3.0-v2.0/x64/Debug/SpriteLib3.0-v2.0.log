@@ -1,0 +1,4 @@
+﻿  PhysicsPlayground.cpp
+D:\hoaar\Documents\Essential Math Tutorial 6 Starter\SpriteLib3.0-v2.0\PhysicsPlayground.cpp(344,24): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\hoaar\Documents\Essential Math Tutorial 6 Starter\SpriteLib3.0-v2.0\PhysicsPlayground.cpp(348,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  SpriteLib3.0-v2.0.vcxproj -> D:\hoaar\Documents\Essential Math Tutorial 6 Starter\x64\Debug\SpriteLib3.0-v2.0.exe
