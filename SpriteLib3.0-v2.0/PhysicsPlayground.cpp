@@ -110,10 +110,23 @@ void PhysicsPlayground::InitScene(float windowWidth, float windowHeight)
 
 	
 
-	//platforms
-	Scene::BoxMaker(20, 60, -40, 15, 0, 1);
-	Scene::BoxMaker(150, 10, 30, -10, 0, 1);
-	Scene::BoxMaker(80, 10, 137.1f, -29.3f, -30, 1);
+	//PLATFORMS
+
+	//back wall
+	Scene::BoxMaker(20, 60, -40, 15, 0, 1); 
+	//1st platform
+	Scene::BoxMaker(150, 10, 30, -10, 0, 1); 
+	//square hole
+	Scene::BoxMaker(10, 15, 100, -15, 0, 1); 
+	Scene::BoxMaker(10, 15, 130, -15, 0, 1);
+	Scene::BoxMaker(40, 10, 115, -27, 0, 1);
+	//2nd platform
+	Scene::BoxMaker(60, 10, 155, -10, 0, 1);
+	//removable wall
+	Scene::BoxMaker(10, 60, 180, 15, 0, 1);
+	//ramp
+	Scene::BoxMaker(80, 10, 217.4f, -29.4f, -30, 1);
+	
 
 
 
@@ -205,7 +218,7 @@ void PhysicsPlayground::InitScene(float windowWidth, float windowHeight)
 		b2Body* tempBody;
 		b2BodyDef tempDef;
 		tempDef.type = b2_dynamicBody;
-		tempDef.position.Set(float32(45.f), float32(-8.f));
+		tempDef.position.Set(float32(150.f), float32(-8.f));
 
 		tempBody = m_physicsWorld->CreateBody(&tempDef);
 
