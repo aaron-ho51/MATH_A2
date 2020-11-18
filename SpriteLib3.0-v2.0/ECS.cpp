@@ -47,3 +47,11 @@ void ECS::SetIsMainPlayer(unsigned entity, bool mainPlayer)
 		MainEntities::MainPlayer(entity);
 	}
 }
+
+void ECS::SetIsMovingPlatform1(unsigned entity, bool movingPlatform1)
+{
+	if (movingPlatform1)
+	{
+		MainEntities::MovingPlatform1(entity);
+	}
+}

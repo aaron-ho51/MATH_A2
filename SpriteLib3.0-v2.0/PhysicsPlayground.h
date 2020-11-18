@@ -21,4 +21,6 @@ protected:
 	PhysicsPlaygroundListener listener;
 
 	int ball = 0;
+	int movingPlatform1 = 0;
+	int movingPlatform2 = 0;
 };
